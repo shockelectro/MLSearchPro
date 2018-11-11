@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnListaBusquedas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nueva Busqueda"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/btnRegistroBusqueda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrar Busqueda"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/btnConsultaIndividual"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-------"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/btnConsultaSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Consultar Lista Usuario Usando Spinner"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/btnConsultaLista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Consultar Lista Consulta"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/btnConsultaListaMascota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Consultar Lista Mascotas"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/btnConsultaListaPersonasRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Consultar Lista Usando Recycler"
+        android:onClick="onClick"/>
+
+
+</LinearLayout>

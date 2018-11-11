@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <PreferenceCategory android:title="Validar DNI en:">
+        <CheckBoxPreference
+            android:title="en el campo"
+            android:summary="Validará la introducción de números y una letra"
+            android:key="validacampo"></CheckBoxPreference>
+        <CheckBoxPreference
+            android:title="al pulsar"
+            android:summary="Comprobará también que la letra sea la correcta"
+            android:key="validaboton"></CheckBoxPreference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Otras preferencias:">
+        <CheckBoxPreference android:enabled="false"
+            android:title="Otra, deshabilitada"
+            android:key="otra"></CheckBoxPreference>
+    </PreferenceCategory>
+</PreferenceScreen>
